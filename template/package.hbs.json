@@ -1,6 +1,7 @@
 {
-  "name": "smart-ui-app-js-template",
+  "name": "{{ name }}",
   "version": "0.0.0",
+  "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "run-p type-check build-only",
@@ -10,7 +11,6 @@
   },
   "dependencies": {
     "mock-ui-vite-plus": "0.0.0-4201a75",
-    "npm": "^9.1.1",
     "vue": "^3.2.38"
   },
   "devDependencies": {
